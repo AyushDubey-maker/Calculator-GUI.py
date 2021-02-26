@@ -95,7 +95,7 @@ button_8=Button(root,text="8",padx=40,pady=20,command=lambda:button_add(8))
 button_9=Button(root,text="9",padx=40,pady=20,command=lambda:button_add(9))
 button_0=Button(root,text="0",padx=40,pady=20,command=lambda:button_add(0))
 button_addition=Button(root,text="+",padx=38,pady=20,command=button_carryaddition)
-button_equal=Button(root,text="=",padx=90,pady=20,command=button_show_result)
+button_equal=Button(root,text="=",padx=90,pady=20,bg="black",fg="white",command=button_show_result)
 button_clear=Button(root,text="Clear",padx=79,pady=20,command=button_clear)
 
 button_minus=Button(root,text="-",padx=40,pady=20,command=button_do_subtraction)
